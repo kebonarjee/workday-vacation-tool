@@ -1,0 +1,29 @@
+# Local Python environments and generated caches.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Absence exports and generated calendars can contain personal information.
+*.xls
+*.xlsx
+*.xlsm
+*.ics
+output/
+AbsenceRequests.md
+vacation.md
+
+# Local configuration and editor files.
+.env
+.env.*
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
